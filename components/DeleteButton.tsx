@@ -46,9 +46,6 @@ const DeleteButton = ({ id }: { id: string }) => {
         <DialogContent className="sm:max-w-sm rounded-2xl border-neutral-200 p-0 overflow-hidden">
           <div className="px-6 pt-6 pb-2 text-center">
             <DialogHeader>
-              <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-red-50">
-                <TrashIcon className="h-5 w-5 text-red-500" />
-              </div>
               <DialogTitle className="text-lg font-semibold text-neutral-900">
                 Delete post
               </DialogTitle>
