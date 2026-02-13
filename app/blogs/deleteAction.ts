@@ -1,4 +1,5 @@
-"use server";
+const runtime = "edge";
+("use server");
 import { prisma } from "@/db";
 
 import { revalidatePath } from "next/cache";

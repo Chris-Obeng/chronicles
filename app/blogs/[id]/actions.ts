@@ -1,3 +1,4 @@
+const runtine = "edge";
 import { prisma } from "@/db";
 
 export const getBlogById = async (id: string) => {

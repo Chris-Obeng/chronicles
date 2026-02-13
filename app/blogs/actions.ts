@@ -1,3 +1,4 @@
+const runtime = "edge";
 import { prisma } from "@/db";
 
 export const getBlogs = async () => {
